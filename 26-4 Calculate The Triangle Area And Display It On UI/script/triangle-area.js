@@ -20,5 +20,8 @@ function calculateArea(){
     //get triangle height value
 
     const triangleHeightInput = document.getElementById('triangle-height');
-    console.log(triangleHeightInput);
+    const triangleHeightText = triangleHeightInput.value;
+    const height = parseFloat(triangleHeightText) 
+    console.log(height);
+    
 }
