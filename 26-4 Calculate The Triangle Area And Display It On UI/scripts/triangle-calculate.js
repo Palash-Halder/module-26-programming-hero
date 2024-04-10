@@ -1,3 +1,9 @@
+/*
+function calculateTriangleArea(){
+    console.log('inside function');
+}
+*/
+
 /**
  * উদ্দেশ্য: একটি ত্রিভুজের ভূমি ও উচ্চতা পাওয়া। প্রদত্ত ফরমুলা ব্যবহার করে ক্ষেত্রফল নির্ণয় এবং তা ডিসপ্লে করা
  * 
@@ -10,15 +16,28 @@
  * Step-5: convert the value to a number using parseFloat
  */
 
-function calculateArea(){
+
+
+function calculateTriangleArea(){
     // get triangle base value
-    const trinagleBaseInput = document.getElementById('tringle-base');
-    const trinagleBaseText = trinagleBaseInput.value;
+    const triangleBaseInput = document.getElementById('triangle-base');
+    const trinagleBaseText = triangleBaseInput.value;
     const base = parseFloat(trinagleBaseText);
     console.log(base);
 
+    
     //get triangle height value
-
     const triangleHeightInput = document.getElementById('triangle-height');
-    console.log(triangleHeightInput);
+    const triangleHeightText = triangleHeightInput.value;
+    const height = parseFloat(triangleHeightText) 
+    console.log(height);
+
+    // Calculate triangle area
+    const area = 0.5 * base * height;
+    console.log('area of the trinagle is"', area);
+    
+    // Display Triangle Area
+    const triangleAreaSpan = document.getElementById('triangle-area');
+    triangleAreaSpan.innerText = area;
 }
+
