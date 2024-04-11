@@ -1,0 +1,9 @@
+
+
+26-7: How to use softcode for calculation area of triangle/rectangle etc.
+
+26-8: 
+    4:15- Getting the value using function
+    09:38- printing value with clg
+    10:17- Function an values
+    11:34- Getting calculation of the area
