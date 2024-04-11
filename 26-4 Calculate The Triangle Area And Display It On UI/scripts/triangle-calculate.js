@@ -34,7 +34,7 @@ function calculateTriangleArea(){
 
     // Calculate triangle area
     const area = 0.5 * base * height;
-    console.log('area of the trinagle is"', area);
+    console.log('area of the trinagle is', area);
     
     // Display Triangle Area
     const triangleAreaSpan = document.getElementById('triangle-area');
